@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ZendeskSdkTheme.Light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alecmcturk.zendesktest.MainActivity"
+    tools:layout_editor_absoluteY="89dp"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="324dp"
+        android:layout_height="369dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="176dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/launch_help_center_button"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+
+            android:background="@android:color/holo_blue_dark"
+            android:text="Maintenance Manual"
+            android:textAppearance="@android:style/TextAppearance.Material.Button"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+        <Button
+            android:id="@+id/launch_submit_ticket_button"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+
+            android:background="@android:color/holo_blue_dark"
+            android:text="Submit Ticket"
+            android:textAppearance="@android:style/TextAppearance.Material.Button"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+        <Button
+            android:id="@+id/launch_chat_button"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="chat with tech support"
+            android:textAppearance="@android:style/TextAppearance.Material.Button"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <Button
+            android:id="@+id/automatic_ticket_button"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+
+            android:background="@android:color/holo_blue_dark"
+            android:text="Send Help Request!"
+            android:textAppearance="@android:style/TextAppearance.Material.Button"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="600dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

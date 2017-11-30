@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zendesk Demo App</string>
+    <string name="action_settings">Settings</string>
+    <string name="chat_account_key">REPLACE-ME</string>
+    <string name="com.zendesk.sdk.url" translatable="false">REPLACE-ME</string>
+    <string name="com.zendesk.sdk.identifier" translatable="false">REPLACE-ME</string>
+    <string name="com.zendesk.sdk.clientIdentifier" translatable="false">REPLACE-ME</string>
+</resources>
